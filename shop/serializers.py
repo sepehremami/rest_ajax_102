@@ -10,3 +10,8 @@ class ProductSerializer(serializers.ModelSerializer):
         fields = ['id', 'name', 'description', 'price']
 
 
+
+class OderSerializer(serializers.ModelSerializer):
+    # complete this
+    # no right answer, make it work 
+    ...
