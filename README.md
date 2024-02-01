@@ -23,6 +23,13 @@ Your task is to fetch product data from our custom API and display it beautifull
    source venv/bin/activate
    pip install -r requirements.txt
    ```
+   
+   or if you have pipenv installed, you can just do:
+   
+   ```
+   pipenv install
+   pipenv shell
+   ```
 
 3. **Deploy Data:**
 
