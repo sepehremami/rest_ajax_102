@@ -3,7 +3,6 @@ from core.models import BaseModel
 
 
 
-
 class Product(BaseModel):
     name = models.CharField(max_length=255)
     description = models.TextField()
