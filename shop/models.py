@@ -9,7 +9,7 @@ class Product(BaseModel):
  
 
 
-class Order(models.Model):
+class Order(BaseModel):
     order_date = models.DateTimeField(auto_now_add=True)
     shipping_address = models.ForeignKey(
         "Address", related_name="orders", on_delete=models.CASCADE
@@ -17,7 +17,7 @@ class Order(models.Model):
     ordered_products = models.ManyToManyField(Product)
 
 
-class Address(models.Model):
+class Address(BaseModel):
     customer_name = models.CharField(max_length=255)
     address_line_1 = models.CharField(max_length=255)
     city = models.CharField(max_length=255)
