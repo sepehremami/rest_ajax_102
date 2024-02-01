@@ -38,7 +38,7 @@ Your task is to fetch product data from our custom API and display it beautifull
 
 **Mission Objectives:**
 
-1. **Fetch and Display the Product List:**
+**1. Fetch and Display the Product List:**
 
    - Employ your JavaScript expertise, specifically jQuery, to retrieve product data from our API.
    - Construct a visually appealing product display within a dedicated page.
